@@ -56,7 +56,7 @@ class DocumentShare extends React.Component<Props> {
           text={document.shareUrl || ''}
           onCopy={this.handleCopied}
         >
-          <Button type="submit" disabled={this.isCopied} primary>
+          <Button type="submit" disabled={this.isCopied} autoFocus primary>
             {this.isCopied ? 'Copied!' : 'Copy Link'}
           </Button>
         </CopyToClipboard>

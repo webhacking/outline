@@ -60,7 +60,7 @@ class DocumentDelete extends React.Component<Props> {
                 document in the future, consider archiving it instead.
               </HelpText>
             )}
-          <Button type="submit" danger>
+          <Button type="submit" autoFocus danger>
             {this.isDeleting ? 'Deleting…' : 'I’m sure – Delete'}
           </Button>
         </form>

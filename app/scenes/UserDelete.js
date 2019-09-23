@@ -46,7 +46,7 @@ class UserDelete extends React.Component<Props> {
               <strong>Note:</strong> Signing back in will cause a new account to
               be automatically reprovisioned.
             </HelpText>
-            <Button type="submit" danger>
+            <Button type="submit" autoFocus danger>
               {this.isDeleting ? 'Deleting…' : 'Delete My Account'}
             </Button>
           </form>

@@ -41,7 +41,7 @@ class CollectionExport extends React.Component<Props> {
             a few seconds. Your documents will be downloaded as a zip of folders
             with files in Markdown format.
           </HelpText>
-          <Button type="submit" disabled={this.isLoading} primary>
+          <Button type="submit" disabled={this.isLoading} autoFocus primary>
             {this.isLoading ? 'Exporting…' : 'Export Collection'}
           </Button>
         </form>
